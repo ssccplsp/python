@@ -22,11 +22,11 @@ print(a)
 a='hello'
 print(a)
 '''
-
+'''
 print(type('hello'))
 print(type(123))
 print(type('123'))
-
+'''
 '''
 还可以照一下方法定义变量：
 '''
@@ -37,5 +37,12 @@ a='hello word'
 print(b)
 print(a)
 '''
+'''
+import keyword
+print(keyword.kwlist)
+'''
+'''
+上面的执行结果会把关键字显示出来
+'False', 'None', 'True', 'and', 'as', 'assert', 'async', 'await', 'break', 'class', 'continue', 'def', 'del', 'elif', 'else', 'except', 'finally', 'for', 'from', 'global', 'if', 'import', 'in', 'is', 'lambda', 'nonlocal', 'not', 'or', 'pass', 'raise', 'return', 'try', 'while', 'with', 'yield']
 
-
+'''
